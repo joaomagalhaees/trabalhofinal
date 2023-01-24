@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/sessao.css">
+    <link rel="icon" href="../images/favicon.ico">
+	  <title>Entrar/Registar</title>
+</head>
+<body>
+  <header>
+    <div>
+        <a href="index.html"><img id="logo-header" src="../images/logo-header.png" alt="logótipo do If I Could Turn Back Records" title="If I Could Turn Back Records"
+            width="180" height="40"></a>
+    </div>
+    <nav class="navbar" id="navbar">
+      <a href="index.html" class="seccoes" id="inicio">Início</a>
+      <a href="index.html#produtos" class="seccoes" id="produtos">Produtos</a>
+      <a href="sessao.html" class="seccoes" id="conta">Conta</a>
+      <a href="carrinho.html" class="seccoes" id="carrinho-de-compras">Carrinho-de-compras
+        <span id="contagem">0</span>
+      </a>
+      <a class="icon" onclick="navbar()">
+        <img src="../images/navbar.svg">
+      </a>
+    </nav>
+</header>
+  <main>
+    <div>
+        <p class="barra-header">&nbsp;</p>
+    </div>
+    <div class="main">  	
+      <input type="checkbox" id="chk" aria-hidden="true">
+          <div class="registo">
+              <form action="conta.html" method="post" class="form">
+                  <h2 class="barra">Registo de conta</h2>
+                  <div class="nome">
+                      <label for="nome-registo">Nome:</label>
+                      <input type="text" name="nome-registo" id="nome-registo" required>
+                  </div>
+                  <div class="email">
+                      <label for="email-registo">E-mail:</label>
+                      <input type="email" name="email-registo" id="email-registo" required>
+                  </div>
+                  <div class="password">
+                      <label for="passe-registo">Palavra-passe:</label>
+                      <input type="password" name="passe-registo" id="passe-registo" required>
+                  </div>
+                  <div>
+                      <input type="submit" value="Registar">
+                      <p class="message">Já tem conta? </p>
+                      <label class="message" for="chk" aria-hidden="true"><a for="chk" aria-hidden="true">Inicie sessão</a></p>
+                  </div>
+              </form>
+          </div>
+  
+          <div class="login">
+              <form action="conta.html" method="post" class="form">
+                  <h2 class="barra">Início de sessão</h2>
+                  <div class="email">
+                      <label for="email-login">E-mail:</label>
+                      <input type="email" name="email-login" id="email-login" required>
+                  </div>
+                  <div class="password">
+                      <label for="passe-login">Palavra-passe:</label>
+                      <input type="password" name="passe-login" id="passe-login" required>
+              </div>
+              <div>
+                  <input type="submit" value="Entrar">
+                  <p class="message">Ainda não tem conta? </p>
+                  <label for="chk" aria-hidden="true" class="message"><a>Registe-se</a></label>
+              </div>
+          </form>
+      </div>
+</main>
+<footer>
+  <div>
+      <img id="logo-footer" src="../images/logo-footer.png" alt="Logótipo do If I Could Turn Back Records" width="180" height="40">
+  </div>
+  <div class="morada">
+    <h4 class="morada-titulo">COMO CHEGAR A IF I COULD TURN BACK RECORDS</h4>
+    <address>
+        Rua Padre Manuel Valente Pinho Leão, Porto<br>
+        4430-684,<br>
+        Portugal<br>
+        T. + 351 911 750 003<br>
+        E. joaorafael200455@gmail.com<br>
+    </address>
+  </div>
+  <div class="contacto">
+      <a href="contacto.html"><h4 class="contacto-titulo">FALE CONNOSCO<br></h4></a>
+  </div>
+</footer>
+  <script  src="../scripts/sessao.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/produto.css">
+    <link rel="icon" href="../images/favicon.ico">
+    <title>Muse - Absolution</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img id="logo-header" src="../images/logo-header.png" alt="logótipo do If I Could Turn Back Time" title="If I Could Turn Back Time"
+                width="180" height="40"></a>
+        </div>
+        <nav class="navbar" id="navbar">
+            <a href="index.html" class="seccoes" id="inicio">Início</a>
+            <a href="index.html#produtos" class="seccoes" id="produtos">Produtos</a>
+            <a href="sessao.html" class="seccoes" id="conta">Conta</a>
+            <a href="carrinho.html" class="seccoes" id="carrinho-de-compras">Carrinho-de-compras
+                <span id="contagem">0</span>
+            </a>
+            <a class="icon" onclick="navbar()">
+                <img src="../images/navbar.svg">
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <p class="barra">&nbsp;</p>
+        </div>
+        <div class="pagina-produto">
+            <div class="card-produto">
+                <div class="card">
+                    <div class="imagens-produto">
+                        <img src="../images/muse-cd-1.jpg" class="imagem-produto">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagens-produto">
+                        <img src="../images/muse-cd-2.jpg" class="imagem-produto">
+                    </div>
+                </div>
+                <div>
+                <button class="antes" onclick="plusSlides(-1)">&#10094;</button>
+                <button class="depois" onclick="plusSlides(1)">&#10095;</button>
+                </div>
+            </div>
+            <div class="info">
+                <h1>Muse - Absolution</h1>
+                <h2>15€</h2>
+                <p>Absolution é o terceiro álbum de estúdio da banda inglesa de rock alternativo Muse. O disco foi liberado em 21 de setembro de 2003 na Inglaterra em em 23 de março de 2004 nos Estados Unidos.</p>
+                <div class="quantidade">
+                    <label for="quant">Quantidade:</label>
+                    <input type="number" name="quant" id="quant" min="1" max="10">
+                </div>
+                <button class="adicionar-carrinho">ADICIONAR AO CARRINHO</button>
+            </div>
+        </div>
+        <div>
+            <h2 class="barra">PRODUTOS SUGERIDOS</h2>
+        </div>
+        <div class="row-produtos">
+            <div class="card-sugestao">
+            <div class="imagem-produto">
+                <a href="produto-tshirt-branca.html"><img src="../images/ethelcain-cd-1.jpg" height="300px"></a>
+            </div>
+            <div class="descricao">
+                <h2>Ethel Cain - Preacher's Daughter</h2>
+                <h1>15€</h1>
+                <p>T-shirt feita de algodão com o logótipo da Escola Superior de Media Artes e Design</p>
+                <button class="adicionar-carrinho">ADICIONAR AO CARRINHO</button>
+            </div>
+        </div>
+            <div class="card-sugestao">
+                <div class="imagem-produto">
+                    <a href="produto-robzombie-hellbillydeluxe-vinyl.html"><img src="../images/robzombie-vinyl-1.jpg" height="300px"></a>
+                </div>
+                <div class="descricao">
+                <h2>Rob Zombie - Hellbilly Deluxe</h2>
+                    <h1>20€</h1>
+                    <p>Hellbilly Deluxe é o primeiro álbum solo de estúdio do músico e cineasta americano Rob Zombie.</p>
+                    <button class="adicionar-carrinho">ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <img id="logo-footer" src="../images/logo-footer.png" alt="Logótipo do If I Could Turn Back Records" width="180" height="40">
+        </div>
+        <div class="morada">
+            <h4 class="morada-titulo">COMO CHEGAR A IF I COULD TURN BACK RECORDS</h4>
+            <address>
+                Rua Padre Manuel Valente Pinho Leão, Porto<br>
+                4430-684,<br>
+                Portugal<br>
+                T. + 351 911 750 003<br>
+                E. joaorafael200455@gmail.com<br>
+            </address>
+        </div>
+        <div class="contacto">
+            <a href="contacto.html"><h4 class="contacto-titulo">FALE CONNOSCO<br></h4></a>
+        </div>
+    </footer>
+    <script src="../scripts/produtos.js"></script>
+</body>
+</html>

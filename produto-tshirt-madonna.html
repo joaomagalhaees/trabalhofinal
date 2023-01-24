@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/produto.css">
+    <link rel="icon" href="../images/favicon.ico">
+    <title>T-shirt Madonna</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img id="logo-header" src="../images/logo-header.png" alt="logótipo do If I Could Turn Back Records" title="If I Could Turn Back Records"
+                width="180" height="40"></a>
+        </div>
+        <nav class="navbar" id="navbar">
+            <a href="index.html" class="seccoes" id="inicio">Início</a>
+            <a href="index.html#produtos" class="seccoes" id="produtos">Produtos</a>
+            <a href="sessao.html" class="seccoes" id="conta">Conta</a>
+            <a href="carrinho.html" class="seccoes" id="carrinho-de-compras">Carrinho-de-compras
+                <span id="contagem">0</span>
+            </a>
+            <a class="icon" onclick="navbar()">
+                <img src="../images/navbar.svg">
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <p class="barra">&nbsp;</p>
+        </div>
+        <div class="pagina-produto">
+            <div class="card-produto">
+                <div class="card">
+                    <div class="imagens-produto">
+                        <img src="../images/TShirt-5.png" class="imagem-produto">
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <h1>T-Shirt Madonna</h1>
+                <h2>15€</h2>
+                <p>T-shirt feita de algodão com o logótipo da Escola de Media Artes e Design (ESMAD) do Instituto Politécnico do Porto.<br>
+                Cor branca com logótipo a preto.</p>
+                <div class="tamanhos">
+                    <button>XS</button>
+                    <button>S</button>
+                    <button>M</button>
+                    <button>L</button>
+                    <button>XL</button>
+                    <button>XXL</button>
+                </div>
+                <div class="quantidade">
+                    <label for="quant">Quantidade:</label>
+                    <input type="number" name="quant" id="quant" min="1" max="10">
+                </div>
+                <button class="adicionar-carrinho">ADICIONAR AO CARRINHO</button>
+            </div>
+        </div>
+        <div>
+            <h2 class="barra">PRODUTOS SUGERIDOS</h2>
+        </div>
+        <div class="row-produtos">
+            <div class="card-sugestao">
+            <div class="imagem-produto">
+                <a href="produto-ethelcain-preachersdaughter-cd.html"><img src="../images/ethelcain-cd-1.jpg" height="300px"></a>
+            </div>
+            <div class="descricao">
+                <h2>Ethel Cain - Preacher's Daughter</h2>
+                <h1>15€</h1>
+                <p>Totebag feita de algodão com o logótipo da marca If I Could Turn Back Records</p>
+                <button class="adicionar-carrinho">ADICIONAR AO CARRINHO</button>
+            </div>
+            </div>
+            <div class="card-sugestao">
+                <div class="imagem-produto">
+                    <a href="produto-madonna-rayoflight-vinyl.html"><img src="../images/madonna-vinyl-01.jpg" height="300px"></a>
+                </div>
+                <div class="descricao">
+                    <h2>Madonna - Ray Of Light</h2>
+                    <h1>30€</h1>
+                    <p>Ray of Light é o sétimo álbum de estúdio da cantora americana Madonna.</p>
+                    <button class="adicionar-carrinho">ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <img id="logo-footer" src="../images/logo-footer.png" alt="Logótipo do Instituto Politécnico do Porto" width="180" height="40">
+        </div>
+        <div class="morada">
+            <h4 class="morada-titulo">COMO CHEGAR A IF I COULD TURN BACK RECORDS</h4>
+            <address>
+                Rua Padre Manuel Valente Pinho Leão, Porto<br>
+                4430-684,<br>
+                Portugal<br>
+                T. + 351 911 750 003<br>
+                E. joaorafael200455@gmail.com<br>
+            </address>
+        </div>
+        <div class="contacto">
+            <a href="contacto.html"><h4 class="contacto-titulo">FALE CONNOSCO<br></h4></a>
+        </div>
+    </footer>
+    <script src="../scripts/produtos-loja.js"></script>
+</body>
+</html>
